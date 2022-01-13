@@ -1,0 +1,51 @@
+header{
+    height: 25px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+
+}
+.container {
+    margin: 10px 30px;
+    padding: 20px;
+    border-radius: 12px;
+  
+    cursor: pointer;
+    transition: background-color ease-in-out 0.3s;
+    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  .container:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  img{
+      border-radius: 50%;
+  }
+  .col2{
+      padding-top: 15px;
+  }
+  .backara{
+      height: 100px;
+  }
+  .pagination{
+      padding: 20px 0px ;
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 0;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+  }
+  .pagination button{
+      background-color: white;
+      border: 2px solid #eb5ea9;
+      border-radius: 8px;
+      margin: 0px 10px;
+      padding: 3px 10px;
+  }
+  .pagination button:hover{
+      background-color: #fc0f8e;
+      color: white;
+  }
