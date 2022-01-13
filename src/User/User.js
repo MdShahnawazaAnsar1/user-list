@@ -2,8 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./User.css";
 import { Row, Col } from "react-grid-system";
-import ArrowCircleLeftIcon from "@mui/material/Icon";
-// import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 const User = () => {
   const [userDetails, setUserDetails] = useState([]);
   const [page, setpage] = useState(1);
